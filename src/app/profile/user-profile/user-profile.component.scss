@@ -1,0 +1,45 @@
+/* Estilos para el componente UserProfile */
+
+.user-profile-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.user-profile-container h2 {
+  margin-bottom: 10px;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  color: #333333;
+}
+
+.user-profile-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.other-info {
+  margin-top: 20px;
+}
+
+.other-info span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.twitter {
+  color: #1da1f2;
+  font-weight: bold;
+}
+
+.followers {
+  color: #333333;
+  font-weight: bold;
+}
+
+.email {
+  color: #ff9900;
+}

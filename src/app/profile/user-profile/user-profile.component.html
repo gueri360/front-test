@@ -1,0 +1,14 @@
+<div  class="user-profile-container">
+  <h2>{{ user.login }}</h2>
+  <img [src]="user.avatar_url" alt="User Avatar">
+
+
+  <div class="other-info">
+
+    <span class="twitter"> twitter name: {{user.twitter_username}}</span>
+    <span class="followers"> followers: {{user.followers}}</span>
+    <span class="email"> email: {{user.email}}</span>
+
+  </div>
+
+</div>
